@@ -29,5 +29,6 @@ API construída para entrega de sprint do curso técnico de desenvolvimento de s
 <ul>
   <li>Os campos para inserção são: name, author, description, year, page_number e cover;</li>
   <li>Com exceção de page_number, todos os outros campos são obrigatórios;</li>
-  <li>Para inserir uma imagem, utilize o endereço da mesma.</li>
+  <li>Para inserir uma imagem, utilize o endereço da mesma;</li>
+  <li>É possível utilizar o link disponibilizado na descrição desse repositório para realizar as requisições (OBS: devido à uma regra do Render, as requisições podem demorar até 50 segundos para serem completadas).</li>
 </ul>
