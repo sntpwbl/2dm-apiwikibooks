@@ -12,7 +12,7 @@ API construída para entrega de sprint do curso técnico de desenvolvimento de s
 <h1>Utilização</h1>
 <ol>
   <li>Clone esse repositório:<br><code>git clone https://github.com/sntpwbl/2dm-apiwikibooks.git</code></li><br>
-  <li>Navegue até o diretório gerado:<br><code>cd 2dm-wikibooks</code></li><br>
+  <li>Navegue até o diretório gerado:<br><code>cd 2dm-apiwikibooks</code></li><br>
   <li>Instale as dependências da API:<br><code>npm install</code></li><br>
   <li>Inicie o servidor:<br><code>npm start</code></li>
 </ol>
