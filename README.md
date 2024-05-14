@@ -18,3 +18,16 @@ API construída para entrega de sprint do curso técnico de desenvolvimento de s
 </ol>
 
 <h1>Rotas</h1>
+<strong>GET /books</strong>: Retorna todos os livros inseridos no banco;<br>
+<strong>GET /books/searchid/:id</strong>: Retorna um único a partir do seu id;<br>
+<strong>GET /books/searchname/:name</strong>: Retorna todos os livros com um nome semelhante ao que foi passado;<br>
+<strong>POST /books</strong>: Insere um novo livro no banco;<br>
+<strong>PUT /books/:id</strong>: Atualiza um livro a partir de seu id;<br>
+<strong>DELETE /books/:id</strong>: Deleta um livro a partir de seu id.
+
+<h1>Observações</h1>
+<ul>
+  <li>Os campos para inserção são: name, author, description, year, page_number e cover;</li>
+  <li>Com exceção de page_number, todos os outros campos são obrigatórios;</li>
+  <li>Para inserir uma imagem, utilize o endereço da mesma.</li>
+</ul>
